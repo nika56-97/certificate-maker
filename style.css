@@ -1,0 +1,29 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f2f2f2;
+}
+
+canvas{
+    margin-top:20px;
+    border:1px solid #ccc;
+    max-width:90%;
+    height:auto; /* Ensures the canvas scales proportionally */
+}
+
+input{
+    padding:10px;
+    font-size:16px;
+    width: 90%;
+    max-width: 300px;
+    box-sizing: border-box;
+}
+
+button{
+    padding:10px 15px;
+    margin:5px;
+    font-size:16px;
+    cursor:pointer;
+    width: 90%;
+    max-width: 145px; /* Keeps two buttons side-by-side on most screens */
+}
